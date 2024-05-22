@@ -1,0 +1,20 @@
+{
+  "name": "cutx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "author": "yashsolanki1709@gmail.com",
+  "bin": {
+    "cutx": "./dist/index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12"
+  }
+}
